@@ -1,0 +1,100 @@
+:root{
+    --color-primario: ;
+    --color-secundario: ;
+    --color-terciario: ;
+    --color-cuarto: ; 
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header__menu{
+    background-color: rgb(127, 198, 198);
+    display: flex;
+    justify-content: right;
+    padding: 1%;
+}
+.header__menu__link{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 10px;
+}
+.header__menu__link:hover{
+    background-color: aqua;
+}
+/** INDEX **/
+.presentation{
+    background-color: rgb(181, 181, 181);
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+}
+.presentation__content__title{
+    display: flex;
+    justify-content: center;
+}
+.presentation__content__text{
+    /**background-color: aqua;**/
+    font-size: 25px;
+    margin: 25px 50px 25px 50px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.presentation__content__video{
+    padding: 10px 10px 10px 75px;
+    width: 200px;
+}
+/** ABOUT US **/
+.aboutus{
+    background-color: rgb(181, 181, 181);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.aboutus__content{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+.aboutus__content__title{
+    padding: 10px 0px 50px 0px;
+}
+.aboutus__content__text{
+    padding: 0px 0px 50px 0px;
+    font-size: 25px;
+}
+/** SOLUTIONS **/
+.solutions{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(181, 181, 181);
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
+}
+/**.solutions__title{
+    background-color:
+}
+.solutions__content{
+    background-color: 
+}**/
+.solutions__module{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+.solutions__image{
+    width: 200px;
+}
+/** CONTACT **/
+
+/** ACCOUNT **/
+/** REGISTER **/
+.footer{
+    text-align: center;
+    padding: 24px;
+    background-color: rgb(127, 198, 198);
+}
